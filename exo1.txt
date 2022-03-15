@@ -1,0 +1,5 @@
+Qu'est ce qu'un service web?
+    Un service web est un médium standardisé permettant la communication entre les applications clients et serveur sur le World Wide Web.
+    
+Une API REST, qu'est-ce que c'est ?
+    Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. Une API REST (également appelée API RESTful) est une interface de programmation d'application (API ou API web) qui respecte les contraintes du style d'architecture REST et permet d'interagir avec les services web RESTful. L'architecture REST (Representational State Transfer) a été créée par l'informaticien Roy Fielding.
