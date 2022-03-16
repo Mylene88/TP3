@@ -23,6 +23,7 @@ class MainWindow(QWidget):
         
         self.label1 = QLabel("Enter your IP:", self)
         self.label3 = QLabel("Enter your hostname:", self)
+        self.label4 = QLabel("Enter your Api key:", self)
         self.text = QLineEdit(self)
         self.text.move(10, 30)
         self.label2 = QLabel("Answer:", self)
@@ -32,14 +33,14 @@ class MainWindow(QWidget):
         self.label3.move(10, 100)
         self.label3 = QLabel("Answer:", self)
         self.label3.move(10, 150)
+        self.label4.move(10, 180)
+        self.text = QLineEdit(self)
+        self.text.move(10, 200)
         self.button = QPushButton("Send", self)
         self.button.move(10, 300)
+        self.label4 = QLabel("Answer:", self)
+        self.label4.move(10, 225)
     
-    
-
-
-        
-
         self.button.clicked.connect(self.on_click)
         self.button.pressed.connect(self.on_click)
 
