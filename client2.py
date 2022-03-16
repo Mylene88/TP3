@@ -20,13 +20,24 @@ class MainWindow(QWidget):
     def initUI(self):
         self.setWindowTitle("Client")
         self.setFixedSize(400, 400)
+        
         self.label1 = QLabel("Enter your IP:", self)
+        self.label3 = QLabel("Enter your hostname:", self)
+        self.text.move(10, 30)
         self.text = QLineEdit(self)
         self.text.move(10, 30)
         self.label2 = QLabel("Answer:", self)
         self.label2.move(10, 60)
+        self.label3.move(10, 100)
+        self.label3 = QLabel("Answer:", self)
+        self.label3.move(10, 120)
         self.button = QPushButton("Send", self)
-        self.button.move(10, 90)
+        self.button.move(10, 300)
+    
+    
+
+
+        
 
         self.button.clicked.connect(self.on_click)
         self.button.pressed.connect(self.on_click)
