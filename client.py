@@ -5,7 +5,7 @@ class Main():
         url = "http://%s" % (hostname)
         r = requests.get(url)
         if r.status_code == requests.codes.NOT_FOUND:
-            QMessageBox.about(self, "Error", "IP not found")
+            messagebox.about(self, "Error", "IP not found")
         if r.status_code == requests.codes.OK:
             return r.json()
 
